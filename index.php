@@ -29,8 +29,118 @@
 </div>
 
 <div class="div-menu">
-
+  <div class="container">
+   <div class="row">
+      <div class="col">
+      1 of 3
+      </div>
+      <div class="col-6">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+           <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="..." alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="col">
+      3 of 3
+      </div>
+    </div>
+  </div>
 </div>
+
+
+<div class="div-footer"> 
+<!-- Footer -->
+<footer class="text-center text-black" id="footer">
+
+    <!-- Section: Links -->
+    <section class="footer-links">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Home</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Fale Conosco</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Sobre nós</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Admin</a>
+            </li>
+           
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+
+      
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.4);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+
 
 </body>
 

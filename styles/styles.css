@@ -1,0 +1,47 @@
+#navbar-top {
+    height: 12%;
+}
+
+#navbar-logo {
+    margin-left: 2em;
+    width: 10%;
+}
+
+#m-nav {
+    padding: 2em;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#navbar-search {
+   display: block !important;
+
+}
+
+#navbarSupportedContent{
+    display: flex !important;
+    justify-content: end !important;
+    align-items: end;
+    margin-right: 2em;
+    width: 15%
+}
+
+body {
+    margin: 0px !important;
+    padding:0px !important;
+}
+
+
+.top-buttons {
+    margin-top: 0.5em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+#buttontop {
+    margin: 0.5em;
+}

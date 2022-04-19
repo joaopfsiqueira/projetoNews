@@ -59,6 +59,19 @@ body {
     height: 100%;
 }
 
+.div-text {
+    height: 80%;
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+.span {
+    font-size: 18px;
+    line-height: 2.2em;
+}
+
+
 #buttontop {
     margin: 0.8em;
 }

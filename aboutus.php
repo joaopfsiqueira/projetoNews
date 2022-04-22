@@ -24,8 +24,8 @@
 
 <div class="top-buttons">
 <a class="btn btn-primary" href="index.php" role="button" id="buttontop" >Home</a>
-<a class="btn btn-primary" href="#" role="button" id="buttontop" >Fale Conosco</a>
-<a class="btn btn-primary" href="#" role="button" id="buttontop" >Sobre Nós</a>
+<a class="btn btn-primary" href="contact.php" role="button" id="buttontop" >Contato</a>
+<a class="btn btn-primary" href="aboutus.php" role="button" id="buttontop" >Sobre Nós</a>
 <a class="btn btn-primary" href="login.php" role="button" id="buttontop" >Login</a>
 <a class="btn btn-primary" href="area_admin.php" role="button" id="buttontop" >Area Administrativa</a>
 </div>
@@ -62,7 +62,7 @@
           
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-black">Fale Conosco</a>
+            <a href="contact.php" class="text-black">Contato</a>
             </li>
           </ul>
         </div>

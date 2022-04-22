@@ -94,7 +94,14 @@ body {
 }
 
 
-
+.contact-titles {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15em 20em 5em;;
+    justify-content: center;
+    text-align: center;
+}
 
 /* aboutsus */
 .paddingTB60 {padding:60px 0px 60px 0px;}
@@ -110,4 +117,24 @@ body {
     margin-top: 10em;
     justify-content:center;
     display: flex;
+}
+
+
+.map {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 60px;
+}
+
+.info {
+    max-width: 28%;
+    min-width: 28%;
+}
+
+.info p {
+    color: #7a7a7a;
+    font-size: 16px;
+    line-height: 1.8;
 }

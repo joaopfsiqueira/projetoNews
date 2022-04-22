@@ -30,48 +30,33 @@
 <a class="btn btn-primary" href="area_admin.php" role="button" id="buttontop" >Area Administrativa</a>
 </div>
 
-<div class="div-menu">
-  <div class="container">
-   <div class="row">
-      <div class="col">
-      1 of 3
-      </div>
-      <div class="col-6">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-           <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="./img/foto1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./img/foto2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="./img/foto3.jpg" alt="Third slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+
+<div class="content" >
+    <div class="contact-titles">
+
+        <div class="info">
+            <h1>Endereço</h1>
+            <p>R. Dom Bôsco, 284 - Centro, Lorena - SP, 12600-100</p>
         </div>
-        <div class="div-text">
-          <div class="span">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+        <div class="info">
+            <h1>Telefone</h1>
+            <p>(12) 9 9999-9999<br> (12) 9 9999-9999</p>
         </div>
-      </div>
-      <div class="col">
-      3 of 3
-      </div>
+
+
+        <div class="info">
+            <h1>E-mail</h1>
+            <p>teste@gmail.com<br> outroteste@gmail.com</p>
+        </div>
+
     </div>
-  </div>
+
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.8672034367437!2d-45.12503378450904!3d-22.733176737415622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccc8e8fd6098a5%3A0x4564947f484e8d03!2sUnisal%20-%20Unidade%20Lorena%20%2F%20S%C3%A3o%20Joaquim!5e0!3m2!1spt-BR!2sbr!4v1650587272569!5m2!1spt-BR!2sbr" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
 </div>
 
 
@@ -88,7 +73,7 @@
           
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="contact.php" class="text-black">Contato</a>
+            <a href="contact.php" class="text-black">Contato</a>
             </li>
           </ul>
         </div>
@@ -99,7 +84,7 @@
         
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="aboutus.php" class="text-black">Sobre nós</a>
+              <a href="#!" class="text-black">Sobre nós</a>
             </li>
           </ul>
         </div>

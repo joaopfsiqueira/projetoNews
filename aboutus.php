@@ -11,7 +11,7 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-joao" id="navbar-top">
   <a class="navbar-brand" id="navbar-logo" href="index.php">Logo</a>
-  <div class="m-nav" id="m-nav" >MEIO DA NAVBAR</div>
+  <div class="m-nav fw-bold" id="m-nav" >Unisal Noticias</div>
  
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <form class="form-inline my-2 my-lg-0" id="navbar-search">

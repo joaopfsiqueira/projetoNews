@@ -1,5 +1,6 @@
 #navbar-top {
     height: 12%;
+    background-color: #f2f2f2;
 }
 
 #navbar-logo {
@@ -31,7 +32,11 @@
 body {
     margin: 0px !important;
     padding:0px !important;
-    
+    padding-bottom: 50px;
+}
+
+#noticia {
+    background-color: #f2f2f2 !important;
 }
 
 
@@ -56,9 +61,16 @@ body {
     padding: 30px
 }
 
+
+#coluna1 {
+    margin-right: 20px;
+}
+
+    
 .div-menu {
     height: 100%;
     margin-bottom: 40px;
+    
 }
 
 .div-text {
@@ -119,6 +131,11 @@ body {
     display: flex;
 }
 
+#senhaBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .map {
     justify-content: center;
@@ -137,4 +154,25 @@ body {
     color: #7a7a7a;
     font-size: 16px;
     line-height: 1.8;
+}
+
+
+#feed-column {
+    max-height: 900px;
+    overflow-y: auto;
+    width: 60% !important;
+}
+
+
+#titulo-noticia { 
+    color: #0d6efd;
+    margin: 30px 20px 30px;
+}
+
+#img-post {
+    margin-top: 2em;
+}
+
+#img-prop { 
+    padding: 25px;
 }
